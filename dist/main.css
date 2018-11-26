@@ -243,6 +243,7 @@ body {
     margin-right: 20px;
     width: 342px;
     height: 450px;
+    margin-top: 20px;
 }
 .card-deck_1 {
     display: -webkit-box;
@@ -257,6 +258,9 @@ body {
     align-items: center;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    height: 482px;
+    transition: all 1s ease;
+    overflow: hidden;
 }
 .tur_battons {
     width: 40%;
@@ -356,6 +360,7 @@ body {
     overflow: hidden;
     position: relative;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .more_tou::before {
     position: absolute;
@@ -551,7 +556,9 @@ body {
     display: flex;
     font-size: 29px;
 }
-
+.card_2 {
+    display: none;
+}
 
 @media screen and (max-width: 1500px){
     .zagolok {
